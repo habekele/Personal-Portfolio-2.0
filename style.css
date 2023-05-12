@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #212221;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #navbarNavAltMarkup > div{
@@ -104,23 +105,55 @@ body > nav{
     text-decoration: underline;
     font-size: 3rem;
     font-weight: 500;
-    font-family: 'Satisfy', cursive;}
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
 
 
 .skills-content{
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr;
+grid-template-rows: 1fr;
+width: 80%;
+row-gap: 30px;
+margin-left: 150px;
+margin-bottom: 100px;
+
+
 }
 .web-dev-content{
     display: flex;
     flex-direction: row;
     color: white;
+    justify-content: center;
 }
 
 .game-dev-content{
     display: flex;
     flex-direction: row;
-
     color: white;
+    justify-content: center;
+}
+
+.game-dev-content img, .web-dev-content img{
+    height: 300px;
+    width: 350px;
+    
+}
+
+.game-text , .web-text {
+width: 50%;
+padding-right: 100px;
+}
+
+.game-text h3, .web-text h3{
+    color: #909659;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.card-footer a, .card-footer{
+    color: #909659;
+
 }
