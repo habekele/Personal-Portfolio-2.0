@@ -309,7 +309,14 @@ form { max-width:420px; margin:50px auto; }
         width: 100%;
     }
 
-
-    
+    #contact-Info > div > div:nth-child(2) > h3{
+        font-size: 1rem;
+    }
+    #contact-Info > div > div:nth-child(1) > h3{
+        font-size: 1rem;
+    }
+    #contact-section > div.contact-header > h1{
+        font-size: 3rem;
+    }
 
 }
