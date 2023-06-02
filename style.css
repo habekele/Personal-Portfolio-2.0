@@ -237,3 +237,79 @@ form { max-width:420px; margin:50px auto; }
 
 
 }
+
+@media screen and (max-width: 800px) {
+    #about > div.about-container{
+        flex-direction: column;
+        flex-grow:1;
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #about > div.about-container > div.about-picture>img{
+        width:250px;
+        height: auto;
+        object-fit: contain;
+        padding-bottom: 30px;
+    }
+
+    #about > div.about-container > div.about-heading{
+        margin-bottom: 200px;
+        
+    }
+    #about > div.about-container > div.about-heading > h1{
+        font-size: 3rem;
+        text-align: center;
+
+    }
+    #about > div.about-container > div.about-heading > h2{
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+    #skills > div.skills-content{
+        margin: 0;
+
+    }
+ 
+
+    #skills > div.skills-content > div.web-dev-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #skills > div.skills-content > div.web-dev-content > div{
+        width: 100%;
+        padding: 0;
+        padding-left: 10px;
+    }
+    #skills > div.skills-content > div.game-dev-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #skills > div.skills-content > div.game-dev-content> div{
+        width: 100%;
+        padding: 0;
+        padding-left: 10px;
+
+    }
+    #skills > div.skills-content > div.web-dev-content > img{
+        width: 250px;
+        object-fit: contain;
+    }
+    #skills > div.skills-content > div.game-dev-content > img{
+        width: 250px;
+        object-fit: contain;
+    }
+    #skills > div.skills-content{
+        width: 100%;
+    }
+
+
+    
+
+}
